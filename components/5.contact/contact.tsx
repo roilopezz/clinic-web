@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Button from "../../common/button/button";
 import iconCall from "../../imgs/icons/iconCall.png";
-import iconLocation from "../../imgs/icons/iconLocation.png";
 import Form from "../../common/form/form";
 
 import { useRouter } from "next/router";
@@ -62,7 +61,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex mr-1">
+              <div className="flex mr-1 mobile:mr-0">
                 <div className={lng?.callTwoClassOne}>
                   <a href="tel:053-4848846">
                     <Image src={iconCall} />
@@ -82,7 +81,18 @@ const Contact = () => {
             <div className="flex mobile:flex-col flex-wrap mt-5">
               <div className="flex">
                 <div className="w-[35px] h-[35px] p-2 flex justify-center align-center bg-blueBtn rounded-full">
-                  <Image src={iconLocation} />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="text-white"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
                 </div>
                 <div className={lng?.locationClass}>
                   {lng?.locationOne}

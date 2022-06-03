@@ -12,14 +12,14 @@ module.exports = {
         btnHeaderDesktop: "37px",
         btnHeaderMobile: "60px",
         btnContactDesktop: "30px",
-        btnFooterDesktop: "30px",
+        btnFooterDesktop: "40px",
       },
 
       width: {
         btnHeaderDesktop: "124px",
         btnHeaderMobile: "185px",
         btnContactDesktop: "90px",
-        btnFooterDesktop: "110px",
+        btnFooterDesktop: "120px",
       },
 
       textColor: {
