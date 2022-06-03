@@ -6,7 +6,11 @@ import { useRouter } from "next/router";
 import { headerContentHE } from "../../common/lang/he";
 import { headerContentEN } from "../../common/lang/en";
 import { useEffect, useState } from "react";
+<<<<<<< HEAD
 import imgSix from "../../imgs/header/Rectangle 6.png";
+=======
+
+>>>>>>> 65247d3d36195a40eec53d44be8b996bf2485b6e
 function Header() {
   const router = useRouter();
   const [lng, setLng] = useState<any>([]);
@@ -50,7 +54,10 @@ function Header() {
           </div>
         ))}
       </div>
+<<<<<<< HEAD
       <Image alt="img" src={imgSix} />
+=======
+>>>>>>> 65247d3d36195a40eec53d44be8b996bf2485b6e
 
       <div className="flex justify-end lg:flex mobile:hidden">
         {headerImagesGroupTwo.map((imgAndClass: any) => {
