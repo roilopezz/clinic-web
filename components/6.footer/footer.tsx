@@ -52,11 +52,7 @@ const Footer = () => {
             </div>
           </div>
 
-<<<<<<< HEAD
           <div className={`${locale == "en" ? "text-left ml-10" : "mr-20"} `}>
-=======
-          <div className={`${locale == "en" ? "text-left ml-10" : null} `}>
->>>>>>> 1e6bcfa5c2753fcb6daeb860a933332c15c33f9e
             {/* <div className="flex flex-col mr-20 text-left"> */}
             <div className="footerSm:hidden">
               <div className="font-bold mb-2 ">{lng?.menu}</div>
@@ -66,11 +62,7 @@ const Footer = () => {
             </div>
           </div>
 
-<<<<<<< HEAD
           <div className="footerSm:relative footerSm:right-0 ">
-=======
-          <div className="footerSm:relative footerSm:right-0 mt-10 ">
->>>>>>> 1e6bcfa5c2753fcb6daeb860a933332c15c33f9e
             <div className={`${locale == "en" ? "text-left" : null} `}>
               <div className="font-bold mb-2 ">{lng?.contact}</div>
               <div className="flex flex-row">
