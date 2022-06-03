@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import { headerContentHE } from "../../common/lang/he";
 import { headerContentEN } from "../../common/lang/en";
 import { useEffect, useState } from "react";
-
+import imgSix from "../../imgs/header/Rectangle 6.png";
 function Header() {
   const router = useRouter();
   const [lng, setLng] = useState<any>([]);
@@ -35,7 +35,7 @@ function Header() {
 
       <div className="flex flex-col text-center justify-center items-center w-full sm:mb-[50%]  lg:mb-[10%] mt-56">
         <div className="absolute top-[-50px] left-[637px] h-[380px] w-[315px] lg:block mobile:hidden">
-          <Image alt="img" src={imgSeven} alt="" />
+          <Image alt="img" src={imgSeven} />
         </div>
 
         {lng.map((content: any) => (
@@ -50,6 +50,7 @@ function Header() {
           </div>
         ))}
       </div>
+      <Image alt="img" src={imgSix} />
 
       <div className="flex justify-end lg:flex mobile:hidden">
         {headerImagesGroupTwo.map((imgAndClass: any) => {
