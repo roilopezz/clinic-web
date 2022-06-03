@@ -28,7 +28,7 @@ const Footer = () => {
         <div>
           <div className="grid grid-cols-4 gap-1 w-[100%] footerSm:grid-cols-1 footerSm:flex footerSm:flex-col">
             <div>
-              <Image src={footerLogo} />
+              <Image alt="footerLogo" src={footerLogo} />
             </div>
 
             <div className="flex justify-center">

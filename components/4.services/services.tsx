@@ -69,7 +69,7 @@ const Services = () => {
               className="rounded-[30px] shadow mobile:hidden "
             >
               <div className="bg-[#F4F3FD] rounded-[30px] py-10 text-center">
-                <Image src={service?.src} />
+                <Image alt="services" src={service?.src} />
               </div>
               <div className="p-6">
                 <div className="text-blue font-bold ">{service.title}</div>
@@ -82,7 +82,7 @@ const Services = () => {
             {lng.map((service: any) => (
               <div key={uuidv4()} className="rounded-[30px] shadow ">
                 <div className="bg-[#F4F3FD] rounded-[30px] py-10 text-center">
-                  <Image src={service?.src} />
+                  <Image alt="services" src={service?.src} />
                 </div>
                 <div className="p-6">
                   <div className="text-blue font-bold mobile:text-lg">
