@@ -62,7 +62,7 @@ function Nav() {
             }`}
           >
             {/* <div className="flex items-center flex-shrink-0 text-white mr-6 md:pl-[2%] sm:ml-0  sm:ml-[100px] xs:ml-[40px] mobile:ml-[140px]"> */}
-            <Image src={NavLogo} />
+            <Image alt="navLogo" src={NavLogo} />
           </div>
           <div className="block mobileHamburger:block lg:hidden ">
             <button
@@ -103,12 +103,14 @@ function Nav() {
                   key={uuidv4()}
                   className="cursor-pointer"
                   src={he}
+                  alt="btnLang"
                 />
                 <Image
                   onClick={() => changeLocale("en")}
                   key={uuidv4()}
                   className="cursor-pointer"
                   src={en}
+                  alt="btnLang"
                 />
               </div>
             </div>

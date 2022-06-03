@@ -26,7 +26,7 @@ const About = () => {
     <div className="flex justify-center mt-20 mobile:mt-10">
       <div className="grid grid-cols-2 mobile:grid-cols-1 mobile:flex mobile:flex-col gap-2 w-[70%]">
         <div className={`${locale === "en" ? "xl:mr-10" : "xl:ml-10"}`}>
-          <Image src={aboutImg} />
+          <Image alt="aboutImg" src={aboutImg} />
         </div>
 
         <div className="bg-gray mt-10 mobile:mb-10">

@@ -50,7 +50,7 @@ const Contact = () => {
               <div className="flex flex-wrap">
                 <div className="w-[35px] h-[35px] p-2 flex justify-center align-center bg-blueBtn rounded-full">
                   <a href="tel:053-4848846">
-                    <Image src={iconCall} />
+                    <Image alt="iconPhone" src={iconCall} />
                   </a>
                 </div>
 
@@ -64,7 +64,7 @@ const Contact = () => {
               <div className="flex mr-1 mobile:mr-0">
                 <div className={lng?.callTwoClassOne}>
                   <a href="tel:053-4848846">
-                    <Image src={iconCall} />
+                    <Image alt="iconPhone" src={iconCall} />
                   </a>
                 </div>
 

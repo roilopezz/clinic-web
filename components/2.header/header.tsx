@@ -27,7 +27,7 @@ function Header() {
         {headerImagesGroupOne.map((imgAndClass: any) => {
           return (
             <div key={imgAndClass.id} className={imgAndClass.className}>
-              <Image src={imgAndClass.src} />
+              <Image alt="img" src={imgAndClass.src} />
             </div>
           );
         })}
@@ -35,7 +35,7 @@ function Header() {
 
       <div className="flex flex-col text-center justify-center items-center w-full sm:mb-[50%]  lg:mb-[10%] mt-56">
         <div className="absolute top-[-50px] left-[637px] h-[380px] w-[315px] lg:block mobile:hidden">
-          <Image src={imgSeven} alt="" />
+          <Image alt="img" src={imgSeven} alt="" />
         </div>
 
         {lng.map((content: any) => (
@@ -55,7 +55,7 @@ function Header() {
         {headerImagesGroupTwo.map((imgAndClass: any) => {
           return (
             <div key={imgAndClass.id} className={imgAndClass.className}>
-              <Image src={imgAndClass.src} />
+              <Image alt="img" src={imgAndClass.src} />
             </div>
           );
         })}
