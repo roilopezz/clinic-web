@@ -1,9 +1,9 @@
-import imgOne from "../../imgs/header/Rectangle 9.png";
-import imgTwo from "../../imgs/header/Rectangle 8.png";
-import imgThree from "../../imgs/header/Rectangle 7.png";
-import imgFour from "../../imgs/header/Rectangle 2.png";
-import imgFive from "../../imgs/header/Rectangle 5.png";
-import imgSix from "../../imgs/header/Rectangle 6.png";
+import imgOne from "../../imgs/header/imgOne.png";
+import imgTwo from "../../imgs/header/imgTwo.png";
+import imgThree from "../../imgs/header/imgThree.png";
+import imgFour from "../../imgs/header/imgFour.png";
+import imgFive from "../../imgs/header/imgFive.png";
+import imgSix from "../../imgs/header/imgSix.png";
 
 export const headerContent: Array<object> = [
   {

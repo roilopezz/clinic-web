@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Button from "../../common/button/button";
-import aboutImg from "../../imgs/about/Rectangle 8.png";
+import aboutImg from "../../imgs/about/about.png";
 
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
