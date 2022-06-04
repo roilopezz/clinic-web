@@ -35,14 +35,18 @@ function Header() {
 
       <div className="flex flex-col text-center justify-center items-center w-full sm:mb-[50%]  lg:mb-[10%] mt-56">
         <div className="absolute top-[-50px] left-[637px] h-[380px] w-[315px] lg:block mobile:hidden">
-          <Image alt="img" src={imgSeven} alt="" />
+          <Image alt="img" src={imgSeven} />
         </div>
 
         {lng.map((content: any) => (
           <div key={content.id}>
             {content.id == "btn" ? (
-              <Button className={content.className} text={content.text} />
+              <Button
+                className="bg-blueBtn w-btnHeaderDesktop h-btnHeaderDesktop mobile:w-btnHeaderMobile mobile:h-btnHeaderMobile  mobile:text-contentBtnMobile mt-5 xs:mt-10 hover:bg-blue-700 text-white font-bold rounded-full mobile:mt-20"
+                text={content.text}
+              />
             ) : (
+              // <Button className={content.className} text={content.text} />
               <div>
                 <h1 className={content.className}>{content.text}</h1>
               </div>

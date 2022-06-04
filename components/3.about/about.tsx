@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Button from "../../common/button/button";
-import aboutImg from "../../imgs/about/Rectangle 8.png";
+import aboutImg from "../../imgs/about/about.png";
 
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
@@ -36,18 +36,34 @@ const About = () => {
                 <div>
                   <div className="mb-2 text-blue">{l.firstTitle}</div>
                 </div>
-
-                <div className="text-titleAboutUsDesktop mobile:text-titleAboutUsMobile font-bold">
-                  <h1>{l.titleOne}</h1>
-                  <h1>{l.titleTwo}</h1>
-                  <h1>{l.titleThree}</h1>
+                <div className=" text-titleAboutUsDesktop mobile:text-titleAboutUsMobile font-bold">
+                  <h1
+                    className={`${locale === "en" ? "mobile:text-xl" : null}`}
+                  >
+                    {l.titleOne}
+                  </h1>
+                  <h1
+                    className={`${locale === "en" ? "mobile:text-xl" : null}`}
+                  >
+                    {l.titleTwo}
+                  </h1>
+                  <h1
+                    className={`${locale === "en" ? "mobile:text-xl" : null}`}
+                  >
+                    {l.titleThree}
+                  </h1>
                 </div>
-
                 <p className={l.className}>{l.paragraph}</p>
-                <Button className={l.classNameBtn} text={l.button} />
               </>
             );
           })}
+
+          <button
+            className="bg-blue mt-10 border rounded-full mobile:w-btnHeaderMobile 
+          mobile:text-aboutBtnMobile mobile:h-btnHeaderMobile bg-blueBtn text-white font-bold"
+          >
+            {locale === "en" ? "Read More" : "קרא עוד"}
+          </button>
         </div>
       </div>
     </div>

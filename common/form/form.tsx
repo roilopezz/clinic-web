@@ -42,13 +42,7 @@ const Form = () => {
 
   return (
     <>
-      <form
-        // className="p-10 mobile:p-4 w-[500px] xs:w-[300px]
-        // mt-6 mb-0 space-y-4 rounded-[30px] bg-white
-        // bottom-1 mobile:relative mobile:bottom-[140px]
-        // border mr-5 mobile:mr-0"
-        onSubmit={formik.handleSubmit}
-      >
+      <form onSubmit={formik.handleSubmit}>
         <div
           className="flex gap-4 mobile:flex
                 mobile:flex-col"
@@ -103,12 +97,14 @@ const Form = () => {
           text={"שליחה"}
         /> */}
 
-        <Button
-          className={
-            "bg-blueBtn w-btnHeaderDesktop h-btnHeaderDesktop mt-5  hover:bg-blue-700 text-white font-bold rounded-full"
-          }
-          text={lng?.btn}
-        />
+        <div className="text-center">
+          <Button
+            className={
+              "bg-blueBtn w-btnHeaderDesktop h-btnHeaderDesktop mt-5  hover:bg-blue-700 text-white font-bold rounded-full "
+            }
+            text={lng?.btn}
+          />
+        </div>
         {/* <button
           type="submit"
           className="p-5 text-sm font-medium rounded-full border"
@@ -151,8 +147,8 @@ const validate = (values: any) => {
 
   if (!values.content) {
     errors.content = "Required";
-  } else if (values.content.length > 20) {
-    errors.content = "Must be 20 characters or less";
+  } else if (values.content.length > 100) {
+    errors.content = "Must be 100 characters or less";
   }
 
   return errors;

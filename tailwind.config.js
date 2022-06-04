@@ -47,6 +47,7 @@ module.exports = {
       fontSize: {
         titleHeaderDefault: "82px",
         contentHeaderDefault: "28px",
+        aboutBtnMobile: "24px",
         contentBtnMobile: "24px",
         titleHeaderMd: "60px",
         contentHeaderMd: "25px",

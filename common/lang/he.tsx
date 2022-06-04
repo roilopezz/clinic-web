@@ -58,7 +58,7 @@ export const headerContentHE: Array<object> = [
   {
     id: "btn",
     className:
-      "bg-blueBtn w-btnHeaderDesktop h-btnHeaderDesktop mobile:w-btnHeaderMobile mobile:h-btnHeaderMobile  mobile:text-contentBtnMobile mt-5 xs:mt-10 hover:bg-blue-700 text-white font-bold rounded-full",
+      "bg-blueBtn w-btnHeaderDesktop h-btnHeaderDesktop mobile:w-btnHeaderMobile mobile:h-btnHeaderMobile  mobile:text-contentBtnMobile mt-5 xs:mt-10 hover:bg-blue-700 text-white font-bold rounded-full mobile:mt-5",
     text: "הכירו אותנו",
   },
 ];
@@ -79,8 +79,6 @@ export const aboutHE: Array<object> = [
         משמעותיים לספק בהתנדבות מלאה ת כל סוגי הטיפול והעזרה הנדרשים`,
   },
   {
-    classNameBtn:
-      "bg-blueBtn w-btnHeaderDesktop h-btnHeaderDesktop mobile:w-btnHeaderMobile mobile:h-btnHeaderMobile  mobile:text-contentBtnMobile mt-5 xs:mt-10 hover:bg-blue-700 text-white font-bold rounded-full",
     button: "קרא עוד",
   },
 ];
