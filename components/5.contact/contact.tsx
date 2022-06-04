@@ -49,7 +49,7 @@ const Contact = () => {
             <div className="flex mobile:flex-col mt-9 ">
               <div className="flex flex-wrap">
                 <div className="w-[35px] h-[35px] p-2 flex justify-center align-center bg-blueBtn rounded-full">
-                  <a href="tel:053-4848846">
+                  <a href="tel:053-4848846 ">
                     <Image alt="iconPhone" src={iconCall} />
                   </a>
                 </div>
@@ -61,8 +61,10 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex mr-1 mobile:mr-0">
-                <div className={lng?.callTwoClassOne}>
+              <div className="flex mr-1 mobile:mr-0 ">
+                <div
+                  className={`${lng?.callTwoClassOne} mobile:relative mobile:top-2`}
+                >
                   <a href="tel:053-4848846">
                     <Image alt="iconPhone" src={iconCall} />
                   </a>
@@ -79,18 +81,18 @@ const Contact = () => {
             </div>
 
             <div className="flex mobile:flex-col flex-wrap mt-5">
-              <div className="flex">
-                <div className="w-[35px] h-[35px] p-2 flex justify-center align-center bg-blueBtn rounded-full">
+              <div className="flex mobile:relative mobile:bottom-2">
+                <div className="w-[35px] h-[35px] p-2 flex justify-center align-center bg-blueBtn rounded-full mobile:relative mobile:top-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="text-white"
+                    className="text-white "
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
                     <path
-                      fill-rule="evenodd"
+                      // fill-rule="evenodd"
                       d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-                      clip-rule="evenodd"
+                      // clip-rule="evenodd"
                     />
                   </svg>
                 </div>
@@ -105,8 +107,8 @@ const Contact = () => {
                 <div
                   className={`${
                     locale == "en"
-                      ? "w-[35px] h-[35px] p-2 flex justify-center align-center bg-blueBtn rounded-full ml-2 mobile:ml-0 mobile:mr-0"
-                      : "w-[35px] h-[35px] p-2 flex justify-center align-center bg-blueBtn rounded-full mr-2 mobile:mr-0"
+                      ? "w-[35px] h-[35px] p-2 flex justify-center align-center bg-blueBtn rounded-full ml-2 mobile:ml-0 mobile:mr-0 mobile:relative mobile:top-1"
+                      : "w-[35px] h-[35px] p-2 flex justify-center align-center bg-blueBtn rounded-full mr-2 mobile:mr-0 mobile:relative mobile:top-1"
                   }`}
                 >
                   <a href="mailto:veahavta.clinic@gmail.com">
@@ -178,7 +180,7 @@ const Contact = () => {
                border
                xs:w-[300px]
                mobile:relative
-               mobile:bottom-[120px]
+               mobile:bottom-[70px]
                mobile:p-4
                mobile:mr-0"
             >

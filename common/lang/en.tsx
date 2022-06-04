@@ -35,7 +35,7 @@ export const headerContentEN: Array<object> = [
     id: "firstTitle",
     className:
       "text-titleHeaderDefault desktop:text-titleHeaderMd xs:text-titleHeaderSm font-bold m-[-5%] sm: m-[-5%]",
-    text: "Love And Love Clinic",
+    text: "Loved Clinic-",
   },
   {
     id: "secondTitle",
@@ -149,7 +149,7 @@ export const contactEN: object = {
 };
 
 export const formEN: object = {
-  toastTxt: "The details were sent successfully",
+  toastTxt: "the details send successfully",
   name: "first Name",
   lastName: "Last Name",
   email: "email",

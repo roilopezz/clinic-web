@@ -9,14 +9,14 @@ module.exports = {
       height: {
         bgHeaderHight: "780px",
         navHight: "73px",
-        btnHeaderDesktop: "37px",
+        btnHeaderDesktop: "60px",
         btnHeaderMobile: "60px",
         btnContactDesktop: "30px",
         btnFooterDesktop: "40px",
       },
 
       width: {
-        btnHeaderDesktop: "124px",
+        btnHeaderDesktop: "185px",
         btnHeaderMobile: "185px",
         btnContactDesktop: "90px",
         btnFooterDesktop: "120px",
@@ -45,10 +45,11 @@ module.exports = {
       },
 
       fontSize: {
-        titleHeaderDefault: "82px",
+        titleHeaderDefault: "70px",
         contentHeaderDefault: "28px",
+        aboutBtnMobile: "24px",
         contentBtnMobile: "24px",
-        titleHeaderMd: "60px",
+        titleHeaderMd: "50px",
         contentHeaderMd: "25px",
         titleHeaderSm: "33px",
         contentHeaderSm: "20px",
