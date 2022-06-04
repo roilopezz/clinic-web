@@ -75,7 +75,7 @@ const Services = () => {
 
           <Slider className="lg:hidden md:block relative" {...settings}>
             {lng.map((service: any) => (
-              <div key={uuidv4()} className="rounded-[30px] shadow ">
+              <div key={uuidv4()} className="rounded-[30px] border">
                 <div className="bg-[#F4F3FD] rounded-[30px] py-10 text-center">
                   <Image alt="services" src={service?.src} />
                 </div>

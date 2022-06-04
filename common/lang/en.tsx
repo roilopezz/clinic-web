@@ -35,25 +35,25 @@ export const headerContentEN: Array<object> = [
     id: "firstTitle",
     className:
       "text-titleHeaderDefault desktop:text-titleHeaderMd xs:text-titleHeaderSm font-bold m-[-5%] sm: m-[-5%]",
-    text: "Loved Clinic-",
+    textTitleOne: "Loved Clinic-",
   },
   {
     id: "secondTitle",
     className:
       "text-titleHeaderDefault desktop:text-titleHeaderMd xs:text-titleHeaderSm font-bold pb-3",
-    text: "Equal health for all",
-  },
-  {
-    id: "firstContent",
-    className:
-      "text-contentHeaderDefault lg:text-contentHeaderMd  xs:text-contentHeaderSm",
-    text: "and a variety of professional medical services.",
+    textTitleTwo: "Equal health for all",
   },
   {
     id: "secondContent",
     className:
       "text-contentHeaderDefault lg:text-contentHeaderMd xs:text-contentHeaderSm",
-    text: "General Medical Services for the Family",
+    textTitleThree: "General Medical Services for the Family",
+  },
+  {
+    id: "firstContent",
+    className:
+      "text-contentHeaderDefault lg:text-contentHeaderMd  xs:text-contentHeaderSm",
+    textTitleFour: "and a variety of professional medical services.",
   },
   {
     id: "btn",

@@ -94,9 +94,8 @@ const Form = () => {
 
         <div className="text-center">
           <Button
-            className={
-              "bg-blueBtn w-btnHeaderDesktop h-btnHeaderDesktop mt-5 text-lg hover:bg-blue-700 text-white font-bold rounded-full "
-            }
+            className={`bg-blue mt-10 border rounded-full w-btnHeaderMobile 
+            text-aboutBtnMobile h-btnHeaderMobile bg-blueBtn text-white font-bold`}
             text={lng?.btn}
           />
         </div>

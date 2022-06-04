@@ -46,8 +46,15 @@ function Header() {
                 text={content.text}
               />
             ) : (
-              <div>
-                <h1 className={content.className}>{content.text}</h1>
+              <div className="desktop:relative desktop:bottom-[55px]">
+                <h1 className="mb-3 text-titleHeaderDefault desktop:text-titleHeaderMd  xs:text-titleHeaderSm font-bold ">
+                  {content.textTitleOne}
+                </h1>
+                <h1 className="text-titleHeaderDefault desktop:text-titleHeaderMd  xs:text-titleHeaderSm font-bold m-[-2%] sm: m-[-5%] mb-2">
+                  {content.textTitleTwo}
+                </h1>
+                <h1 className="text-lg ">{content.textTitleThree}</h1>
+                <h1 className="text-lg ">{content.textTitleFour}</h1>
               </div>
             )}
           </div>

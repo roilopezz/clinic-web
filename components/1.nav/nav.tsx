@@ -53,7 +53,8 @@ function Nav() {
   return (
     <>
       <div className="flex justify-center relative z-10">
-        <nav className="nav absolute top-3 mobile:top-10 rounded-[12px] flex justify-center bg-center items-center w-8/12 mobile:w-11/12 h-navHight flex-wrap bg-white">
+        <nav className="nav absolute top-3 mobile:top-10 rounded-[12px] flex justify-center bg-center items-center w-8/12 mobile:w-11/12  flex-wrap bg-white">
+          {/* ------------- Nav Logo ------------- */}
           <div
             className={`${
               locale === "en"
@@ -63,6 +64,7 @@ function Nav() {
           >
             <Image alt="navLogo" src={NavLogo} />
           </div>
+          {/* ------------- Hamburger ------------- */}
           <div
             className={
               locale == "en"
@@ -90,10 +92,10 @@ function Nav() {
               className={`${
                 locale === "en"
                   ? "navBottomRadius p-2 mobile:p-6 bg-white w-full flex-grow lg:flex lg:items-center lg:w-auto lg:text-left sm:text-left"
-                  : "navBottomRadius p-2 mobile:p-10 bg-white w-full flex-grow lg:flex lg:items-center lg:w-auto lg:text-right sm:text-right"
+                  : "navBottomRadius p-2 mobile:p-6 bg-white w-full flex-grow lg:flex lg:items-center w-auto lg:text-right sm:text-right"
               }`}
             >
-              <div className="text-lg flex xs:flex-col lg:flex-grow ">
+              <div className="flex xs:flex-col lg:flex-grow">
                 {lng.map((tab: any) => (
                   <a
                     key={uuidv4()}
@@ -103,12 +105,13 @@ function Nav() {
                   </a>
                 ))}
               </div>
+
               <div className="flex mobile:flex-col relative mt-2">
                 <div
                   className={`${
                     locale == "en"
-                      ? "gap-4  flex mobile:flex-col justify-center  sm:absolute mobile:bottom-[1px] mobile:left-[240px]"
-                      : "gap-4  flex mobile:flex-col justify-center  sm:absolute mobile:bottom-[1px] mobile:right-[200px]"
+                      ? "gap-4  flex mobile:flex-col justify-center  navSm:absolute mobile:bottom-[1px] mobile:left-[240px]"
+                      : "gap-4  flex mobile:flex-col justify-center  mobile:absolute mobile:bottom-[1px] mobile:right-[200px]"
                   }`}
                 >
                   <div>

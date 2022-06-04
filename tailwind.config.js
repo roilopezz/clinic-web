@@ -8,16 +8,15 @@ module.exports = {
     extend: {
       height: {
         bgHeaderHight: "780px",
-        navHight: "73px",
-        btnHeaderDesktop: "60px",
-        btnHeaderMobile: "60px",
+        btnHeaderDesktop: "45px",
+        btnHeaderMobile: "45px",
         btnContactDesktop: "30px",
         btnFooterDesktop: "40px",
       },
 
       width: {
         btnHeaderDesktop: "185px",
-        btnHeaderMobile: "185px",
+        btnHeaderMobile: "175px",
         btnContactDesktop: "90px",
         btnFooterDesktop: "120px",
       },
@@ -31,6 +30,7 @@ module.exports = {
         sm: { min: "1px", max: "1500px" },
         xs: { min: "1px", max: "1000px" },
         desktop: { min: "660px", max: "1720px" },
+        navSm: { min: "1px", max: "1024px" },
         mobile: { min: "1px", max: "1500px" },
         mobileHamburger: { min: "1px", max: "1500px" },
         footerMd: { min: "800px", max: "1500px" },
@@ -43,7 +43,7 @@ module.exports = {
       },
 
       fontSize: {
-        titleHeaderDefault: "70px",
+        titleHeaderDefault: "50px",
         contentHeaderDefault: "28px",
         aboutBtnMobile: "22px",
         contentBtnMobile: "22px",

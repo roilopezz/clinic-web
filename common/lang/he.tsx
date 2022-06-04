@@ -35,26 +35,27 @@ export const headerContentHE: Array<object> = [
     id: "firstTitle",
     className:
       "text-titleHeaderDefault desktop:text-titleHeaderMd  xs:text-titleHeaderSm font-bold m-[-5%] sm: m-[-5%]",
-    text: "מרפאת ואהבת-",
+    textTitleOne: "מרפאת ואהבת-",
   },
   {
     id: "secondTitle",
     className:
       "text-titleHeaderDefault desktop:text-titleHeaderMd xs:text-titleHeaderSm font-bold pb-3",
-    text: "בריאות שוויונית לכולם",
-  },
-  {
-    id: "firstContent",
-    className:
-      "text-contentHeaderDefault lg:text-contentHeaderMd  xs:text-contentHeaderSm",
-    text: "ומגוון שירותי רפואה מקצועיים.",
+    textTitleTwo: "בריאות שוויונית לכולם",
   },
   {
     id: "secondContent",
     className:
       "text-contentHeaderDefault lg:text-contentHeaderMd xs:text-contentHeaderSm",
-    text: "שירותי רפואה כלליים למשפחה,",
+    textTitleThree: "שירותי רפואה כלליים למשפחה,",
   },
+  {
+    id: "firstContent",
+    className:
+      "text-contentHeaderDefault lg:text-contentHeaderMd  xs:text-contentHeaderSm",
+    textTitleFour: "ומגוון שירותי רפואה מקצועיים.",
+  },
+
   {
     id: "btn",
     className:
