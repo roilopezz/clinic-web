@@ -82,10 +82,10 @@ const Contact = () => {
 
             <div className="flex mobile:flex-col flex-wrap mt-5">
               <div className="flex mobile:relative mobile:bottom-2">
-                <div className="w-[35px] h-[35px] p-2 flex justify-center align-center bg-blueBtn rounded-full mobile:relative mobile:top-1">
+                <div className="text-white w-[35px] h-[35px] p-2 flex justify-center align-center bg-blueBtn rounded-full mobile:relative mobile:top-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="text-white "
+                    // className="text-white"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >

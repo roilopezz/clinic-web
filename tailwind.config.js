@@ -3,7 +3,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
-  // content: ["./**/*.{js,ts,jsx,tsx}"],
+
   theme: {
     extend: {
       height: {
@@ -47,8 +47,8 @@ module.exports = {
       fontSize: {
         titleHeaderDefault: "70px",
         contentHeaderDefault: "28px",
-        aboutBtnMobile: "24px",
-        contentBtnMobile: "24px",
+        aboutBtnMobile: "22px",
+        contentBtnMobile: "22px",
         titleHeaderMd: "50px",
         contentHeaderMd: "25px",
         titleHeaderSm: "33px",
