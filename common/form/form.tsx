@@ -13,7 +13,7 @@ const Form = () => {
   const router = useRouter();
   const [lng, setLng] = useState<any>([]);
 
-  const { locale } = router;
+  console.log(typeof lng);
 
   useEffect(() => {
     const { locale } = router;
@@ -92,11 +92,6 @@ const Form = () => {
           errors={formik.errors.content}
         />
 
-        {/* <Button
-          className="px-5 py-3 text-sm font-medium text-white bg-indigo-600 rounded-full"
-          text={"שליחה"}
-        /> */}
-
         <div className="text-center">
           <Button
             className={
@@ -105,12 +100,6 @@ const Form = () => {
             text={lng?.btn}
           />
         </div>
-        {/* <button
-          type="submit"
-          className="p-5 text-sm font-medium rounded-full border"
-        >
-          שליחה
-        </button> */}
       </form>
     </>
   );

@@ -85,15 +85,10 @@ const Contact = () => {
                 <div className="text-white w-[35px] h-[35px] p-2 flex justify-center align-center bg-blueBtn rounded-full mobile:relative mobile:top-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    // className="text-white"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
-                    <path
-                      // fill-rule="evenodd"
-                      d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-                      // clip-rule="evenodd"
-                    />
+                    <path d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" />
                   </svg>
                 </div>
                 <div className={lng?.locationClass}>
@@ -170,7 +165,6 @@ const Contact = () => {
           </div>
 
           <div className="max-w-screen-xl">
-            {/* <div className=" max-w-lg mx-auto absolute bottom-[80px] mobile:relative mobile:bottom-0"> */}
             <div
               className="p-10  w-[500px]
               mb-0 space-y-4 rounded-[30px] bg-white

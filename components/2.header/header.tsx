@@ -46,7 +46,6 @@ function Header() {
                 text={content.text}
               />
             ) : (
-              // <Button className={content.className} text={content.text} />
               <div>
                 <h1 className={content.className}>{content.text}</h1>
               </div>

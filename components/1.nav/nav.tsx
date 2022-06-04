@@ -61,7 +61,6 @@ function Nav() {
                 : "flex items-center flex-shrink-0 text-white mr-6 md:pl-[2%] sm:ml-0  sm:ml-[100px] xs:ml-[40px] mobile:ml-[130px]"
             }`}
           >
-            {/* <div className="flex items-center flex-shrink-0 text-white mr-6 md:pl-[2%] sm:ml-0  sm:ml-[100px] xs:ml-[40px] mobile:ml-[140px]"> */}
             <Image alt="navLogo" src={NavLogo} />
           </div>
           <div
@@ -94,10 +93,8 @@ function Nav() {
                   : "navBottomRadius p-2 mobile:p-10 bg-white w-full flex-grow lg:flex lg:items-center lg:w-auto lg:text-right sm:text-right"
               }`}
             >
-              {/* // <div className="rounded-b-lg p-5 bg-white w-full flex-grow lg:flex lg:items-center lg:w-auto lg:text-right sm:text-right"> */}
               <div className="text-lg flex xs:flex-col lg:flex-grow ">
                 {lng.map((tab: any) => (
-                  // <a key={uuidv4()} className={tab.className}>
                   <a
                     key={uuidv4()}
                     className="block font-bold mt-4 lg:inline-block lg:mt-0 text-black hover:text-blue cursor-pointer ml-10"

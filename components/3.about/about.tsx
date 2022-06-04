@@ -1,12 +1,10 @@
 import Image from "next/image";
-import Button from "../../common/button/button";
 import aboutImg from "../../imgs/about/about.png";
-
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-
 import { aboutHE } from "../../common/lang/he";
 import { aboutEN } from "../../common/lang/en";
+import { v4 as uuidv4 } from "uuid";
 
 const About = () => {
   const router = useRouter();
@@ -32,7 +30,7 @@ const About = () => {
         <div className="bg-gray mt-10 mobile:mb-10">
           {lng.map((l: any) => {
             return (
-              <>
+              <div key={uuidv4()}>
                 <div>
                   <div className="mb-2 text-blue">{l.firstTitle}</div>
                 </div>
@@ -54,7 +52,7 @@ const About = () => {
                   </h1>
                 </div>
                 <p className={l.className}>{l.paragraph}</p>
-              </>
+              </div>
             );
           })}
 

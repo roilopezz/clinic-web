@@ -31,10 +31,8 @@ module.exports = {
         sm: { min: "1px", max: "1500px" },
         xs: { min: "1px", max: "1000px" },
         desktop: { min: "660px", max: "1720px" },
-
         mobile: { min: "1px", max: "1500px" },
         mobileHamburger: { min: "1px", max: "1500px" },
-
         footerMd: { min: "800px", max: "1500px" },
         footerSm: { min: "1px", max: "800px" },
       },

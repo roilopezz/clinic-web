@@ -1,13 +1,5 @@
-const Button = ({
-  className,
-  text,
-  icon,
-}: {
-  className?: string;
-  text?: string;
-  icon?: any;
-}) => {
-  return <button className={className}>{text ? text : icon}</button>;
+const Button = ({ className, text }: { className?: string; text?: string }) => {
+  return <button className={className}>{text}</button>;
 };
 
 export default Button;

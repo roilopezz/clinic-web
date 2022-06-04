@@ -5,39 +5,6 @@ import imgFour from "../../imgs/header/imgFour.png";
 import imgFive from "../../imgs/header/imgFive.png";
 import imgSix from "../../imgs/header/imgSix.png";
 
-export const headerContent: Array<object> = [
-  {
-    id: "firstTitle",
-    className:
-      "text-titleHeaderDefault desktop:text-titleHeaderMd xs:text-titleHeaderSm font-bold m-[-5%] sm: m-[-5%]",
-    text: "מרפאת ואהבת-",
-  },
-  {
-    id: "secondTitle",
-    className:
-      "text-titleHeaderDefault desktop:text-titleHeaderMd xs:text-titleHeaderSm font-bold pb-3",
-    text: "בריאות שוויונית לכולם",
-  },
-  {
-    id: "firstContent",
-    className:
-      "text-contentHeaderDefault lg:text-contentHeaderMd  xs:text-contentHeaderSm",
-    text: "ומגוון שירותי רפואה מקצועיים.",
-  },
-  {
-    id: "secondContent",
-    className:
-      "text-contentHeaderDefault lg:text-contentHeaderMd xs:text-contentHeaderSm",
-    text: "שירותי רפואה כלליים למשפחה,",
-  },
-  {
-    id: "btn",
-    className:
-      "bg-blueBtn w-btnHeaderDesktop h-btnHeaderDesktop mobile:w-btnHeaderMobile mobile:h-btnHeaderMobile  mobile:text-contentBtnMobile mt-5 xs:mt-10 hover:bg-blue-700 text-white font-bold rounded-full",
-    text: "הכירו אותנו",
-  },
-];
-
 export const headerImagesGroupOne: Array<object> = [
   {
     id: "imgOne",

@@ -1,9 +1,5 @@
 import Image from "next/image";
 import Slider from "react-slick";
-import adoption from "../../imgs/services/adoption.png";
-import family from "../../imgs/services/family.png";
-import woman from "../../imgs/services/woman.png";
-import pray from "../../imgs/services/pray.png";
 import { v4 as uuidv4 } from "uuid";
 
 import { useRouter } from "next/router";
@@ -42,7 +38,7 @@ const Services = () => {
     <div className="text-center mt-36 mb-36 mobile:mt-10">
       {lngTitles.map((title: any) => {
         return (
-          <>
+          <div key={uuidv4()}>
             <div
               className={`${
                 locale === "en"
@@ -53,11 +49,10 @@ const Services = () => {
               {title.titleOne}
             </div>
 
-            {/* <div className={title.classNameTitleOne}>{title.titleOne}</div> */}
             <div className="text-titleServices font-bold mobile:hidden">
               {title.titleTwo}
             </div>
-          </>
+          </div>
         );
       })}
 
