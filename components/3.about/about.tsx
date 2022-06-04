@@ -59,8 +59,13 @@ const About = () => {
           })}
 
           <button
+<<<<<<< HEAD
             className="bg-blue mt-10 border rounded-full w-btnHeaderMobile 
           text-aboutBtnMobile h-btnHeaderMobile bg-blueBtn text-white font-bold"
+=======
+            className="bg-blue mt-10 border rounded-full mobile:w-btnHeaderMobile 
+          mobile:text-aboutBtnMobile mobile:h-btnHeaderMobile bg-blueBtn text-white font-bold"
+>>>>>>> 2558858c4316e90119b36a634d42c831ee04b854
           >
             {locale === "en" ? "Read More" : "קרא עוד"}
           </button>
