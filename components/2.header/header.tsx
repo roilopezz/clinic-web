@@ -42,11 +42,7 @@ function Header() {
           <div key={content.id}>
             {content.id == "btn" ? (
               <Button
-<<<<<<< HEAD
                 className="bg-blueBtn w-btnHeaderDesktop h-btnHeaderDesktop mobile:w-btnHeaderMobile mobile:h-btnHeaderMobile  text-contentBtnMobile mt-10 xs:mt-10 hover:bg-blue-700 text-white font-bold rounded-full mobile:mt-20"
-=======
-                className="bg-blueBtn w-btnHeaderDesktop h-btnHeaderDesktop mobile:w-btnHeaderMobile mobile:h-btnHeaderMobile  mobile:text-contentBtnMobile mt-5 xs:mt-10 hover:bg-blue-700 text-white font-bold rounded-full mobile:mt-20"
->>>>>>> 2558858c4316e90119b36a634d42c831ee04b854
                 text={content.text}
               />
             ) : (
